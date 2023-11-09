@@ -106,7 +106,7 @@ public class Draw extends JPanel implements ActionListener{
     public void updategame(){
         tomatoRi++;
     
-        if(tomatoRi >= tomatoNv){
+        if(tomatoRi >= tomatoNv){ //tomatoNvเป็นอัตราการเกิดของมะเขือเทศลูกใหม่ riเป็นการนับให้มะเขือเทศเกิด
             tomatoRi = 0;
             tomato toma = new tomato();
 
@@ -124,7 +124,7 @@ public class Draw extends JPanel implements ActionListener{
         }
 
         for (int i = 0; i < mts.size(); i++) {
-            if (Intersect(mts.get(i).getbound(), mjp.getbound())) {
+            if (Intersect(mts.get(i).getbound(), mjp.getbound())) { //เมื่อชนกันแล้วมะเขือเทศจะหายไป เราจะมีฟังชันgetbondทั้ง2คลาสแล้วก็สร้างสี่เหลี่ยมคอบ
                 mts.remove(i);
                 score += 15;
                                                                                               

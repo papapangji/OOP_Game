@@ -6,18 +6,19 @@ import java.util.Random;
 import javax.swing.ImageIcon;
 
 public class tomato {
-    public int x=(int) ((Math.random() * 300) + 20);
+    public int x=(int) ((Math.random() * 250) + 20);
     public int y=0;
     public Image imgpt;
 
     public tomato(){
         
-        x = (int) ((Math.random() * 300) + 20);
+        x = (int) ((Math.random() * 250) + 20);
         y = 0;
         this.imgpt = new ImageIcon(getClass().getResource("/bg/fruit7.png")).getImage();
         runner.start();
 }
         private int tomato = 3;
+
         public void move(){
             y += tomato;
             if (y >= 1300) {
