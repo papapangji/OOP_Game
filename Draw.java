@@ -63,7 +63,7 @@ public class Draw extends JPanel implements ActionListener{
                 System.out.println(e);
              }
              timec--;
-        q3
+        
          }
         } 
      });
