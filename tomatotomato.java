@@ -18,7 +18,7 @@ public class tomatotomato extends JFrame implements ActionListener{
         
         // add(d);
         add(stg);
-        stg.Bext.addActionListener(this);
+        stg.BCan.addActionListener(this);
         stg.Bst.addActionListener(this);
         
         // d.requestFocus();
@@ -52,7 +52,7 @@ public void actionPerformed(ActionEvent e) {
         d.requestFocusInWindow();
         revalidate();
 }
-else if(e.getSource()==stg.Bext){
+else if(e.getSource()==stg.BCan){
     System.exit(0);
 }
 }

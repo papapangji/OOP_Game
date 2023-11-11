@@ -57,7 +57,7 @@ public class Draw extends JPanel implements ActionListener{
         public void run(){
          while(true){
              try{
-                 Thread.sleep(1000);
+                 Thread.sleep(1000);//1s
              }
              catch(Exception e){
                 System.out.println(e);

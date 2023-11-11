@@ -8,17 +8,17 @@ public class startgame extends JPanel{
     
     public ImageIcon feild = new ImageIcon(this.getClass().getResource("/bg/bgbg.jpg"));
 	public ImageIcon start = new ImageIcon(this.getClass().getResource("/bg/starta.png"));
-	public ImageIcon exit = new ImageIcon(this.getClass().getResource("/bg/exit.png"));
+	public ImageIcon cancel = new ImageIcon(this.getClass().getResource("/bg/exit.png"));
     public JButton Bst = new JButton(start);
-    public JButton Bext = new JButton(exit);
+    public JButton BCan = new JButton(cancel);
 
     public startgame(){
         
         setLayout(null);
         add(Bst);
         Bst.setBounds(405, 220, 210, 70);
-        add(Bext);
-        Bext.setBounds(395, 350, 230, 70);
+        add(BCan);
+        BCan.setBounds(395, 350, 230, 70);
         
 
     }
